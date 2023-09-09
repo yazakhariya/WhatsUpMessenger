@@ -10,8 +10,8 @@ export default function LoginPage() {
     <S.PageWrapper>
       <S.LogoImg src={logo} />
       <S.BarWrapper>
-        <UiInput placeholder={'Логин'} />
-        <UiInput placeholder={'Пароль'} />
+        <UiInput placeholder={'idInstance'} />
+        <UiInput placeholder={'apiTokenInstance'} />
         <UiButton children={'Войти'} />
       </S.BarWrapper>
     </S.PageWrapper>
