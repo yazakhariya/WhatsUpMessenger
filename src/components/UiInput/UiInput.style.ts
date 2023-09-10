@@ -17,4 +17,11 @@ export const Input = styled.input`
   outline: none;
   border: none;
   width: 350px;
+
+  &&::-webkit-outer-spin-button,
+  &&::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+  }
 `
